@@ -301,13 +301,53 @@ a {
     text-align: center;
 }
 
+.coffee-img {
+    margin-top: 10rem;
+}
+
+
+/* New Menu */
+
+/* .column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    justify-self: center;
+}
+
+.store-pic {
+    width: 450px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  } */
+
+
+
+
+
+
+
+
+/* End of new menu */
+
 .about-us,
 .store-hours-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-right: 50px;
 }
 
 .welcome {
@@ -333,6 +373,12 @@ a {
     color: #333;
     z-index: 1;
     margin-bottom: 4rem;
+}
+
+.store-hours-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .third-grid {
